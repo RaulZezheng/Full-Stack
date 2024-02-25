@@ -81,7 +81,7 @@ const App = () => {
       <h3>add a new</h3>
       <PersonForm addPerson={addPerson} newName={newName} newNumber={newNumber} handleNameChange={handleNameChange} handleNumberChange={handleNumberChange} />
       <h3>Numbers</h3>
-      <Person copy={copy} />
+      <Person key={persons.name} copy={copy} />
     </div>
   )
 }
