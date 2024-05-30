@@ -1,0 +1,28 @@
+Script started on 2024-05-28 20:10:10+03:00 [TERM="xterm-256color" TTY="/dev/pts/5" COLUMNS="120" LINES="30"]
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+[?2004h]0;wsl@LAPTOP-S8TG84MQ: ~[01;32mwsl@LAPTOP-S8TG84MQ[00m:[01;34m~[00m$ docker run -it ubuntu /bin/bash
+[?2004lUnable to find image 'ubuntu:latest' locally
+latest: Pulling from library/ubuntu
+
+[1A[2K49b384cc7b4a: Pulling fs layer [1B[1A[2K49b384cc7b4a: Downloading [>                                                  ]  294.1kB/28.87MB[1B[1A[2K49b384cc7b4a: Downloading [=>                                                 ]    887kB/28.87MB[1B[1A[2K49b384cc7b4a: Downloading [====>                                              ]  2.665MB/28.87MB[1B[1A[2K49b384cc7b4a: Downloading [=========>                                         ]  5.319MB/28.87MB[1B[1A[2K49b384cc7b4a: Downloading [==============>                                    ]   8.28MB/28.87MB[1B[1A[2K49b384cc7b4a: Downloading [================>                                  ]  9.755MB/28.87MB[1B[1A[2K49b384cc7b4a: Downloading [===================>                               ]  11.53MB/28.87MB[1B[1A[2K49b384cc7b4a: Downloading [=========================>                         ]  14.78MB/28.87MB[1B[1A[2K49b384cc7b4a: Downloading [==============================>                    ]  17.73MB/28.87MB[1B[1A[2K49b384cc7b4a: Downloading [===================================>               ]  20.72MB/28.87MB[1B[1A[2K49b384cc7b4a: Downloading [========================================>          ]   23.4MB/28.87MB[1B[1A[2K49b384cc7b4a: Downloading [===========================================>       ]  24.88MB/28.87MB[1B[1A[2K49b384cc7b4a: Downloading [=============================================>     ]  26.37MB/28.87MB[1B[1A[2K49b384cc7b4a: Downloading [================================================>  ]  28.16MB/28.87MB[1B[1A[2K49b384cc7b4a: Verifying Checksum [1B[1A[2K49b384cc7b4a: Download complete [1B[1A[2K49b384cc7b4a: Extracting [>                                                  ]  294.9kB/28.87MB[1B[1A[2K49b384cc7b4a: Extracting [======>                                            ]  3.834MB/28.87MB[1B[1A[2K49b384cc7b4a: Extracting [============>                                      ]  7.078MB/28.87MB[1B[1A[2K49b384cc7b4a: Extracting [===============>                                   ]  8.847MB/28.87MB[1B[1A[2K49b384cc7b4a: Extracting [====================>                              ]  12.09MB/28.87MB[1B[1A[2K49b384cc7b4a: Extracting [===============================>                   ]  17.99MB/28.87MB[1B[1A[2K49b384cc7b4a: Extracting [========================================>          ]   23.3MB/28.87MB[1B[1A[2K49b384cc7b4a: Extracting [==========================================>        ]  24.77MB/28.87MB[1B[1A[2K49b384cc7b4a: Extracting [==============================================>    ]  27.13MB/28.87MB[1B[1A[2K49b384cc7b4a: Extracting [=================================================> ]  28.61MB/28.87MB[1B[1A[2K49b384cc7b4a: Extracting [==================================================>]  28.87MB/28.87MB[1B[1A[2K49b384cc7b4a: Pull complete [1BDigest: sha256:3f85b7caad41a95462cf5b787d8a04604c8262cdcdf9a472b8c52ef83375fe15
+Status: Downloaded newer image for ubuntu:latest
+[?2004h]0;root@5bf10a988ffd: /root@5bf10a988ffd:/# docker ps
+[?2004lbash: docker: command not found
+[?2004h]0;root@5bf10a988ffd: /root@5bf10a988ffd:/# docker ps[Kmkdir -p /usr/src/app
+[?2004l[?2004h]0;root@5bf10a988ffd: /root@5bf10a988ffd:/# 
+[?2004l[?2004h]0;root@5bf10a988ffd: /root@5bf10a988ffd:/# touch /usr/src/app/index.js
+[?2004l[?2004h]0;root@5bf10a988ffd: /root@5bf10a988ffd:/# [Kls
+[?2004l[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;36mlib64[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+[?2004h]0;root@5bf10a988ffd: /root@5bf10a988ffd:/# cd usr/
+bin/     games/   include/ lib/     lib64/   libexec/ local/   sbin/    share/   src/     
+]0;root@5bf10a988ffd: /root@5bf10a988ffd:/# cd usr/src/app/
+[?2004l[?2004h]0;root@5bf10a988ffd: /usr/src/approot@5bf10a988ffd:/usr/src/app# ls
+[?2004lindex.js
+[?2004h]0;root@5bf10a988ffd: /usr/src/approot@5bf10a988ffd:/usr/src/app# exit
+[?2004lexit
+[?2004h]0;wsl@LAPTOP-S8TG84MQ: ~[01;32mwsl@LAPTOP-S8TG84MQ[00m:[01;34m~[00m$ exit
+[?2004lexit
+
+Script done on 2024-05-28 20:12:07+03:00 [COMMAND_EXIT_CODE="0"]
